@@ -33,5 +33,5 @@ jobs:
     - name: Building zukes release Apk 🤖
       uses: actions/upload-artifact@v2
       with:
-        name: Proto
+        name: app_name
         path: build/app/outputs/flutter-apk/app-release.apk
